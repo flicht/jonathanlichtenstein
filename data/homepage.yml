@@ -1,0 +1,185 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "The Berlin Shadow"
+  content : "A formally audacious and deeply moving memoir that confronts the defining trauma of the twentieth century, and it's effects on a father and son."
+  image : "images/the-berlin-shadow-lg.jpg"
+  button:
+    link : "https://amzn.to/2Sfcab7"
+    label : "Pre-order"
+
+############################# Feature ############################
+features:
+  enable : false
+  title : "Jonathan Lichtenstein"
+  image : "images/jonathan-lichtenstein.jpg"
+
+  # feature at the left of the image
+  leftSide:
+    # feature item loop
+  - icon : "tf-ion-ios-alarm-outline"
+    title : "Smooth Touch"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - icon : "tf-ion-ios-bell-outline"
+    title : "Elegant Design"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - icon : "tf-ion-ios-cart-outline"
+    title : "Easy Pricing"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+  # feature at the right of the image
+  rightSide:
+    # feature item loop
+  - icon : "tf-ion-ios-alarm-outline"
+    title : "Smooth Touch"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+    # feature item loop
+  - icon : "tf-ion-ios-bell-outline"
+    title : "Elegant Design"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+    # feature item loop
+  - icon : "tf-ion-ios-cart-outline"
+    title : "Easy Pricing"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+############################# promo ############################
+promo:
+  enable : true
+  image : "images/jl.jpg"
+  title : "Jonathan Lichtenstein"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
+            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+
+############################# The Journey #######################
+journey:
+  enable : true
+  title : "The Journey in Reverse"
+  items:
+    # about product item loop
+    - image : "images/lichtenstein-taschen2.jpg"
+      title : ""
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+        
+    # about product item loop
+    - image : "images/katzenstein.jpg"
+      title : ""
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+
+
+############################# About Product #######################
+aboutProduct:
+  enable : true
+  title : "Plays"
+  items:
+    # about product item loop
+    - image : "images/tpong.jpg"
+      title : ""
+      quotes:
+          - content: "... brings the subject of war close to home and handles it with a  terrifying intensity."
+            quoteby: "THE SCOTSMAN - FRINGE FIRST WINNER"
+          - content: "Jonathan Lichtenstein beautifully portrays how the war destroyed rural Welsh family."
+            quoteby: "THE NEW YORK TIMES"
+          - content: "... a harrowing, heartbreaking play."
+            quoteby: "THE GUARDIAN"
+          - content: "Jonathan Lichtenstein's drama is simple in its conception yet elemental in its themes ... it packs a wallop."
+            quoteby: "THE NEW YORK POST"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+        
+    # about product item loop
+    - image : "images/memory-cover.jpg"
+      title : ""
+      quotes:
+        - content: " ... compelling drama ... an impressive achievement."
+          quoteby: "THE NEW YORK TIMES"
+        - content: "... searing, absolutely splendid new play ..."
+          quoteby: "BACKSTAGE"
+        - content: "We fall head first into the compelling tales and their tragic conclusions ... Lichtenstein's drama - part historical, part political - gains the ability to deliver a theatrical blow that sends us reeling ... "
+          quoteby: "THE VILLAGE VOICE"
+        - content: "... an astounding piece of drama ..."
+          quoteby: "METRO (UK)"
+        - content: "Utterly absorbing, emotionally powerful ..."
+          quoteby: "THE STAGE (LONDON)"
+
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+
+
+
+#################################### Gallery ########################
+gallery:
+  enable : false
+  title : "Photographs"
+  # Set the image directory to use as base
+  directory : "images/"
+  # Set the images to show in the gallery
+  images : ["memory.jpg", ""]
+  
+
+
+
+################################## call to action ###################
+cta:
+  enable : false
+  bgImage : "images/call-to-action.jpg"
+  title : "Get Product Updates"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder : "Your Email Address Here"
+
+
+############################## Testimonial ##########################
+testimonial:
+  enable : false
+  title : "Watch Review"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+
+  ################# button ###############
+  button:
+    enable : true
+    label : "Grab You Product Now"
+    link : "#"
+      

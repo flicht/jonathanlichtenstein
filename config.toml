@@ -1,0 +1,75 @@
+################################### Default Configuration ############################
+baseurl = "https://www.example.com/"
+languageCode = "en"
+title = "Jonathan Lichtenstein"
+theme = "vex-hugo"
+
+#################################### Plugins ##########################################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700"
+  [[params.plugins.css]]
+  URL = "https://fonts.googleapis.com/css?family=Inria+Serif"
+  [[params.plugins.css]]
+  URL = "https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700"
+  [[params.plugins.css]]
+  URL = "fonts/ETBembo-RomanLF.ttf"
+  [[params.plugins.css]]
+  URL = "css/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "css/themefisher-fonts.css"
+  [[params.plugins.css]]
+  URL = "css/owl.carousel.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+  [[params.plugins.css]]
+  URL = "css/magnific-popup.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/jquery-2.1.1.min.js"
+  [[params.plugins.js]]
+  URL = "js/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "js/owl.carousel.min.js"
+  [[params.plugins.js]]
+  URL = "js/jquery.magnific-popup.min.js"
+
+
+###################################### Navigation ######################################
+[menu]
+    
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight = 2
+  
+  [[menu.main]]
+  name = "The Journey"
+  URL = "journey"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Plays"
+  URL = "plays"
+  weight = 4
+  
+
+
+########################### Default parameters ##########################
+[params]
+logo = ""
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "s"
+# Google Analitycs
+googleAnalitycsID = "UA-154900836-1"
+# copyright
+copyright = "Copyright 2020 &copy; | All right reserved."
+
+  # Preloader
+  [params.preloader]
+  enable = false
