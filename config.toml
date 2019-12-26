@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "http://flicht.github.io/jonathanlichtenstein"
+baseurl = "https://flicht.github.io/jonathanlichtenstein"
 languageCode = "en"
 title = "Jonathan Lichtenstein"
 theme = "vex-hugo"
