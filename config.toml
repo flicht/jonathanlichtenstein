@@ -3,6 +3,8 @@ baseurl = "https://www.example.com/"
 languageCode = "en"
 title = "Jonathan Lichtenstein"
 theme = "vex-hugo"
+publishDir = "docs"
+
 
 #################################### Plugins ##########################################
 [params.plugins]
