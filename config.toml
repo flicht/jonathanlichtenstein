@@ -17,7 +17,7 @@ publishDir = "docs"
   [[params.plugins.css]]
   URL = "https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700"
   [[params.plugins.css]]
-  URL = "fonts/ETBembo-RomanLF.ttf"
+  URL = "https://fonts.googleapis.com/css?family=EB+Garamond"
   [[params.plugins.css]]
   URL = "css/bootstrap.min.css"
   [[params.plugins.css]]
