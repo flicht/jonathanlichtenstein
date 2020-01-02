@@ -58,6 +58,11 @@ publishDir = "docs"
   URL = "plays"
   weight = 4
   
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 5
+  
 
 
 ########################### Default parameters ##########################
@@ -70,7 +75,7 @@ author = "s"
 # Google Analitycs
 googleAnalitycsID = "UA-154900836-1"
 # copyright
-copyright = "Copyright 2020 &copy; | All right reserved."
+copyright = "Copyright 2020 &copy; | All rights reserved."
 
   # Preloader
   [params.preloader]

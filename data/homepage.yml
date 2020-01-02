@@ -54,8 +54,10 @@ features:
 promo:
   enable : true
   image : "images/jl.jpg"
-  title : "Jonathan Lichtenstein"
-  content : "I am a Professor of Drama at the University of Essex and have written plays for stage and radio. The Berlin Shadow is my first book."
+  title : ""
+  content1 : "My plays have been performed in: London, Edinburgh, New York, Berlin, Chicago, Sydney, Dresden, Cardiff and others."
+  content2 : "I am a Professor at the University of Essex."
+  content3 : "The Berlin Shadow is my first book."
 
 ############################# The Journey #######################
 journey:
@@ -65,7 +67,7 @@ journey:
     # about product item loop
     - image : "images/lichtenstein-taschen2.jpg"
       title : ""
-      content : "The Berlin Shadow is about the journey I took with my father where we traced the route of his escape from Nazi Germany on one of the ‘Kindertransports’. My father was 12 when he travelled alone from  Berlin to London. He never talked about what happened to him."
+      content : "The Berlin Shadow is about the journey I took with my father where we traced the route of his escape from Nazi Germany on one of the ‘Kindertransports’. My father was 12 when he travelled alone from  Berlin to London. He had never talked about what happened to him."
       button:
         enable : false
         label : "Check Features"
@@ -74,7 +76,7 @@ journey:
     # about product item loop
     - image : "images/hans.png"
       title : ""
-      content : "My father was fearless, whether para-gliding whilst in his eighties or telling complete strangers off about things he disapproved of. Being with him was always full of surprises as he was often very badly behaved. He was though very funny. "
+      content : "My father was fearless, whether para-gliding whilst in his eighties or telling-off complete strangers. He was often badly behaved and being with him was always full of surprises. Every situation was riddled with quarrels and rows – though this made him very funny."
       button:
         enable : false
         label : "Check Features"
@@ -88,6 +90,15 @@ journey:
         label : "Check Features"
         link : "#"
 
+
+############################# Contact #######################
+contact: 
+  enable: true
+  title: "Agent"
+  content: "Jonathan Conway Literary Agency"
+  email: "joanthan@jonathan-conway.com"
+  tel: "+44(0)1273 457 745"
+  website: "www.jonathan-conway.com"
 
 ############################# About Product #######################
 aboutProduct:
