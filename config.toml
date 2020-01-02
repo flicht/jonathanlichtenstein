@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://wwww.jonathanlichtenstein.co.uk"
+baseurl = "http://jonathanlichtenstein.co.uk"
 languageCode = "en"
 title = "Jonathan Lichtenstein"
 theme = "vex-hugo"
