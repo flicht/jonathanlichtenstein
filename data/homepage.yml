@@ -5,8 +5,17 @@ banner:
   content : "A formally audacious and deeply moving memoir that confronts the defining trauma of the twentieth century, and it's effects on a father and son."
   image : "images/the-berlin-shadow-lg.jpg"
   button:
-    link : "https://amzn.to/2Sfcab7"
+    link : "https://www.hive.co.uk/Product/Jonathan-Lichtenstein/The-Berlin-Shadow/20973619"
     label : "Pre-order"
+    image : ""
+  bookshops:
+    - link: "https://www.hive.co.uk/Product/Jonathan-Lichtenstein/The-Berlin-Shadow/20973619"
+      image: "images/bookshop-logos/hive.svg"
+    - link: "https://www.waterstones.com/book/the-berlin-shadow/jonathan-lichtenstein/9781471167270"
+      image: "images/bookshop-logos/waterstones.svg"
+    - link: "https://amzn.to/2Sfcab7"
+      image: "images/bookshop-logos/amazon.svg"
+
 
 ############################# Feature ############################
 features:

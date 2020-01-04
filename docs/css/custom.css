@@ -59,3 +59,21 @@
     font-size: 27px;
     line-height: 1.1em;
 }
+
+.button-logo-image {
+    max-height: 40px;
+    border-radius: 4px;
+    box-shadow:  0px 0px 1px 1px rgb(201, 201, 201);
+}
+.button-logo-image:hover {
+    box-shadow:  0px 0px 1px 1px rgb(99, 99, 99);
+}
+.button-logo-image:active {
+    box-shadow:  0px 0px 2px 1px #2f2f2f;
+}
+
+.button-logo {
+    max-height: 50px;
+    border-radius: 4px;
+    padding: 5px;
+}
