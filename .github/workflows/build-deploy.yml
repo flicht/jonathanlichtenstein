@@ -1,0 +1,40 @@
+name: Build and deploy site
+
+# Rebuilds the site with Hugo whenever source files change on master,
+# and commits the result to docs/, which GitHub Pages serves.
+on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - 'docs/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          # Same version the site has always been built with
+          hugo-version: '0.61.0'
+
+      - name: Build site
+        run: hugo
+
+      - name: Commit and push rebuilt site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then
+            echo "Site already up to date - nothing to deploy"
+          else
+            git commit -m "Rebuild site"
+            git push
+          fi

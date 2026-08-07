@@ -49,7 +49,7 @@ publishDir = "docs"
   weight = 2
   
   [[menu.main]]
-  name = "The Journey"
+  name = "The Berlin Shadow"
   URL = "journey"
   weight = 3
   
@@ -70,12 +70,12 @@ publishDir = "docs"
 logo = ""
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "Jonathan Lichtenstein"
 author = "s"
 # Google Analitycs
 googleAnalitycsID = "UA-154900836-1"
 # copyright
-copyright = "Copyright 2020 &copy; | All rights reserved."
+copyright = "Copyright 2021 &copy; | All rights reserved."
 
   # Preloader
   [params.preloader]

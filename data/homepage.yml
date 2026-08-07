@@ -6,15 +6,15 @@ banner:
   image : "images/the-berlin-shadow-lg.jpg"
   button:
     link : "https://www.hive.co.uk/Product/Jonathan-Lichtenstein/The-Berlin-Shadow/20973619"
-    label : "Pre-order"
+    label : "Buy Now"
     image : ""
   bookshops:
-    - link: "https://www.hive.co.uk/Product/Jonathan-Lichtenstein/The-Berlin-Shadow/20973619"
-      image: "images/bookshop-logos/hive.svg"
     - link: "http://tidd.ly/934a26d4"
       image: "images/bookshop-logos/waterstones.svg"
     - link: "https://amzn.to/2Sfcab7"
       image: "images/bookshop-logos/amazon.svg"
+    - link: "https://amzn.to/3hYYHxM"
+      image: "images/bookshop-logos/audible.svg"
 
 
 ############################# Feature ############################
@@ -71,7 +71,7 @@ promo:
 ############################# The Journey #######################
 journey:
   enable : true
-  title : "The Journey in Reverse"
+  title : "The Berlin Shadow"
   items:
     # about product item loop
     - image : "images/lichtenstein-taschen2.jpg"
