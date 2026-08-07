@@ -1,0 +1,79 @@
+#banner-text {
+    font-size: 26px;
+    font-family: "EB Garamond";
+}
+
+.section {
+    padding:60px 0 !important;
+}
+
+.bg-orange {
+    background-color: #994247 !important;
+}
+
+.btn-main {
+    background-color: #994247 !important;
+    box-shadow: 0 0px 0px #994247 !important;
+}
+
+#test  {
+    font-family: "EB Garamond" !important;
+}
+
+.navbar-brand {
+    font-family: "EB Garamond";
+}
+
+.quotation {
+    font-size: 28px;
+    font-family: "EB Garamond";
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.quoteby {
+    font-size: 14px !important;
+    font-family: "EB Garamond" !important;
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 10px !important;
+}
+
+#berlin-shadow {
+    box-shadow:  0px 0px 35px 1px #d8d8d8;
+}
+
+.name {
+    font-family: "EB Garamond";
+}
+
+.bembo {
+    font-family: "EB Garamond" !important;
+}
+
+.fontsize21 {
+    font-size: 21px;
+}
+.fontsize27 {
+    font-size: 27px;
+    line-height: 1.1em;
+}
+
+.button-logo-image {
+    max-height: 40px;
+    border-radius: 4px;
+    box-shadow:  0px 0px 1px 1px rgb(201, 201, 201);
+}
+.button-logo-image:hover {
+    box-shadow:  0px 0px 1px 1px rgb(99, 99, 99);
+}
+.button-logo-image:active {
+    box-shadow:  0px 0px 2px 1px #2f2f2f;
+}
+
+.button-logo {
+    max-height: 50px;
+    border-radius: 4px;
+    padding: 5px;
+}

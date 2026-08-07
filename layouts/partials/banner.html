@@ -1,0 +1,27 @@
+{{- if .Site.Data.homepage.banner.enable }}
+{{- with .Site.Data.homepage.banner }}
+<!-- hero area -->
+<section class="section">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 text-center mb-5 mb-md-0">
+              <img class="img-fluid" id="berlin-shadow" src="{{ .image | absURL }}" alt="The Berlin Shadow - Jonathan Lichtenstein">
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-left">
+              <div class="block">
+                  <p class="mb-4" id='banner-text'>{{ .content | markdownify }}</p>
+                  {{- with .button }}
+                  <a class="btn btn-main" href="{{ .link }}" role="button">{{ .label }}</a>
+                  {{- end }}
+                  <div class="d-inline-flex p-2">
+                  {{- range .bookshops }}
+                  <a class="btn button-logo" href="{{ .link }}" role="button"><img class="button-logo-image" src="{{ .image }}"/></a>
+                  {{- end }}
+                  </div>
+              </div>
+          </div>
+      </div><!-- .row close -->
+  </div><!-- .container close -->
+</section><!-- header close -->
+{{- end }}
+{{- end }}
